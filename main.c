@@ -105,7 +105,7 @@ int main() {
 		draw_line(rand() % 501, 250 + rand() % 250, rand() % 501, 250 + rand() % 250, s, c);
 	}
 
-	//display(s);
+	display(s);
 	save_extension(s, "pic.png");
 
 }
